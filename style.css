@@ -1,0 +1,43 @@
+/* Backgound-image des grilles */
+.custom-bg-1{
+    background-image: url(img/bg_activite_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-bg-2{
+    background-image: url(img/bg_activite_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-bg-3{
+    background-image: url(img/bg_activite_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-bg-4{
+    background-image: url(img/bg_activite_4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Taille des grilles */
+.custom-bg-1, .custom-bg-2, .custom-bg-3, .custom-bg-4{
+    height: 600px;
+}
+
+.grid-img{
+    width: 30px;
+    height: 3px;
+    margin-top: 10px;
+    transition: width 0.5s ease;
+}
+
+.grid-a:hover + .grid-img{
+    width: 200px;
+}
+
+.icon-size{
+    height: 100px;
+}
